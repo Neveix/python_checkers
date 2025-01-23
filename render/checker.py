@@ -9,7 +9,7 @@ class CheckerType(Enum):
         return (self == CheckerType.WHITE_QUEEN) or (self == CheckerType.BLACK_QUEEN)
     def get_color_normal(self):
         if self == CheckerType.WHITE_QUEEN or self == CheckerType.WHITE:
-            return (190,) * 3
+            return (160,) * 3
         else:
             return (45,) * 3
     def get_color_border(self):
